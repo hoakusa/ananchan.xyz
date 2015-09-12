@@ -1,0 +1,9 @@
+# Site settings
+name: Anan
+baseurl: /
+encoding: UTF-8
+permalink: pretty
+
+# Buid settings
+markdown: rdiscount
+pygments: true
