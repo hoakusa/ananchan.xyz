@@ -1,0 +1,88 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+/*
+** Customize pure css
+*/
+
+.pure-g [class *="pure-u"] {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*
+** General
+*/
+
+.transition {
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container .content {
+    margin: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container .content {
+        margin: 0 32px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .container .content {
+        margin: 0 16px;
+    }
+}
+
+/*
+** Banner
+*/
+
+section {
+    width: 100%;
+}
+
+section.banner {
+    background: url("/img/banner.jpg") no-repeat center;
+    height: 100vh;
+    margin: 0;
+    max-width: none;
+    text-align: center;
+}
+
